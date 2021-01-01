@@ -111,7 +111,14 @@
 
 /* Pengurus */
 .pengurus {
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+.pengurus h3 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px;
 }
 
 .pengurus h5 {
@@ -210,6 +217,18 @@
 
     .workingspace .visi {
         margin-left: 120px;
+    }
+
+    .pengurus {
+        margin-top: 100px;
+    }
+
+    .pengurus h3 {
+        font-size: 40px;
+    }
+
+    .pengurus h5 {
+        font-size: 32px;
     }
 }
 
