@@ -20,6 +20,10 @@
     background-color: #333;
 }
 
+.nav-item, .dropdown-menu {
+    text-transform: uppercase
+}
+
 /* Jumbotron */
 .jumbotron {
     background-image: url(../img/jumbotron-bg.jpg);
@@ -167,7 +171,7 @@
         margin-right: 30px;
     }
     
-    .nav-link:hover::after {
+    /* .nav-link:hover::after {
         content: '';
         display: block;
         border-bottom: 3px solid #0B63DC;
@@ -175,11 +179,24 @@
         margin: auto;
         padding-bottom: 5px;
         margin-bottom: -8px;
+    } */
+
+    .nav-link:hover {
+        background: orange;
     }
 
     .dropdown-menu {
-        margin-left: 750px;
-        background-color: #333 !important;
+        background-color: orange !important;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .drop-profil {
+        margin-left: 700px;
+    }
+
+    .drop-berita {
+        margin-left: 800px;
     }
 
     .dropdown-item {
