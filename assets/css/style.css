@@ -184,6 +184,23 @@
     border-radius: 40px;
     /* background-color: #f12020; */
 }
+
+/* card */
+.card {
+    margin-top: 8%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
   
 /* Dekstop Version */
 @media (min-width: 992px) {
